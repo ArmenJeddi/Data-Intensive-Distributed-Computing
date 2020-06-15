@@ -3,8 +3,12 @@ Big data processing frameworks (Spark, Hadoop), programming in Java and Scala, a
 
 #### This repository contains the Java and Scala implementations of the course project and the assignments of the data intensive distributed computing course (CS 651) at the University of Waterloo, Winter 2020. They cover a broad range of data intensive distributed problems such as text data analysis, graph data analysis. machine learning, GraphX library and distributed Graph RDD processing, and so on. In the following sections, I will describe the components of this work in more details.
 
+## Project
+**Graph Query System:** I implement a novel system for performing queries on large-scale graph structured data. To do this, I use **Spark GraphX** and **Pregel** libraries to create and load graphs, and perform distributed operations on them. Graph ranking metrics such as **shortest paths** and **PageRanks** are then applied to rank the results of the query. The following figure shows a graphical user interface of this system; for more information, you can read more about this article [here](files/query_system.pdf), and watch [this youtube presentation](https://youtu.be/cJQDDTHfTFQ).
+![Graphical user interface](files/query_gui.jpg)
 
 
+## Assignments
 ### Assignment 7
 **Spark streaming:** Given the [New York City Taxi & Limousine Commision trip transactions](https://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/) data, an online streaming scenario is modeled in which trends of in-city trips are detected for the live data.
 
