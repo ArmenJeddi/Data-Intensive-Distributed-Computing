@@ -5,6 +5,7 @@ Big data processing frameworks (Spark, Hadoop), programming in Java and Scala, a
 
 ## Project
 **Graph Query System:** I implement a novel system for performing queries on large-scale graph structured data. To do this, I use **Spark GraphX** and **Pregel** libraries to create and load graphs, and perform distributed operations on them. Graph ranking metrics such as **shortest paths** and **PageRanks** are then applied to rank the results of the query. The following figure shows a graphical user interface of this system; for more information, you can read more about this article [here](files/query_system.pdf), and watch [this youtube presentation](https://youtu.be/cJQDDTHfTFQ).
+
 ![Graphical user interface](files/query_gui.jpg)
 
 
